@@ -1,8 +1,8 @@
 package com.tkn.springcloud.controller;
 
+import com.tkn.springcloud.service.PaymentService;
 import com.tkn.springcloud.entities.CommonResult;
 import com.tkn.springcloud.entities.Payment;
-import com.tkn.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
